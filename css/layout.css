@@ -1,0 +1,201 @@
+/* ===================================
+LAYOUT CSS
+
+Size and positioning for sections
+and included content.
+=================================== */
+
+
+/* ===================================
+Structural Elements
+=================================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ===================================
+Overall
+=================================== */
+
+body {
+    margin: auto; /* Remove outermost margins */
+}
+
+
+/* ===================================
+Site Header
+=================================== */
+
+header {
+    clear: both;
+    position: sticky;
+    top: 0;
+    /* width: 100%;
+    margin: 0 auto; */
+    min-width: 900px;
+    margin: 0 auto;
+}
+
+
+#top-banner-contents {
+    /* Centers the contained side-by-side elements */
+    display: flex;
+    justify-content: center;
+}
+
+#top-banner-logo {
+    /* Pushes element halfway to the left */
+    float: left;
+
+    border-radius: 50%;
+
+    /* Creates space from top and bottom edges of the banner */
+    margin-top: 4px;
+    margin-bottom: 4px; 
+}
+
+#website-titles {
+    /* Push element halfway to the left */
+    float: left;
+
+    /* Creates space from top and bottom edges of the banner */
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#subtitle {
+    /* Creates space from above title */
+    margin-top: 12px;
+}
+
+
+/* ===================================
+Page Content
+=================================== */
+
+#page-content-wrapper {
+    overflow: hidden;
+    width: 90%;
+    min-width: 900px;
+    margin: 0 auto;
+}
+
+#page-main-image {
+    max-width: 100%;
+}
+
+#page-content-title {
+    text-align: center;
+    font-size: 48px;
+
+    /* Creates space from above section */
+    margin-top: 0.75%;
+}
+
+#home-main-content main {
+    margin-top: 2%;
+    padding: 1%;
+}
+
+#article-main-content main {
+    float: left;
+    width: 62%;
+
+    /* Creates space from above section */
+    margin-top: 2%;
+
+    padding: 1%;
+}
+
+#credits-main-content main {
+    text-align: center;
+    line-height: 3em;
+
+    margin-top: 2%;
+    
+    padding: 1%;
+}
+
+aside {
+    float: right;
+    width: 35%;
+    
+    /* Creates space from above section */
+    margin-top: 2%;
+
+    padding: 1%;
+}
+
+#author-image {
+    border-radius: 50%;
+}
+
+
+/* ===================================
+Footer
+=================================== */
+
+footer {
+    min-width: 900px;
+    margin-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    line-height: 99px;
+    height: 112px;
+    margin-bottom: 20px;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+
+    /* Creates circular border */
+    border-radius: 50%;
+    padding: 5px;
+
+    width: 110px;  
+    height:110px;  
+    margin: 25px;
+    margin-top: -1px;
+}
+
+nav a {
+    text-decoration: none;
+
+    /* Gives the anchor a rounded shape, matching the above circular border */
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin: -25px;
+    line-height: 106px;
+    border-radius: 50%;
+}
+
+#site-info {
+    text-align: center;
+    line-height: 28px;
+    height: 30px;
+}
+
+#site-info a {
+    text-decoration: none;
+}
+
+
+/* ===================================
+General
+=================================== */
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
