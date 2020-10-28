@@ -1,0 +1,99 @@
+/* ===================================
+BOX MODEL CSS
+
+Border styles used for outlining
+sections and included content.
+=================================== */
+
+
+/* ===================================
+Structural Elements
+=================================== */
+
+
+/* ===================================
+Overall
+=================================== */
+
+body {
+    border: 1px solid black;
+}
+
+
+/* ===================================
+Site Header
+=================================== */
+
+header {
+    border: 1px solid red;
+}
+
+#top-banner-contents {
+    border: 1px solid black;
+}
+
+#top-banner-logo {
+    border: 1px solid black;
+}
+
+#website-titles {
+    border: 1px solid black;
+}
+
+
+/* ===================================
+Page Content
+=================================== */
+
+#home-content-wrapper {
+    border: 1px solid orange;
+}
+
+#page-content-wrapper {
+    border: 1px solid orange;
+}
+
+main {
+    border: 1px solid blue;
+}
+
+#page-main-image {
+    border: 1px solid black;
+}
+
+#page-content-title {
+    border: 1px solid black;
+}
+
+aside {
+    border: 1px solid yellow;
+}
+
+#author-image {
+    border: 1px solid black;
+}
+
+
+/* ===================================
+Footer
+=================================== */
+
+footer {
+    border: 1px solid green;
+}
+
+#navigation {
+    border: 1px solid black;
+}
+
+nav li {
+    border: 1px solid black;
+}
+
+nav a {
+    border: 1px solid black;
+}
+
+#site-info {
+    border: 1px solid black;
+}

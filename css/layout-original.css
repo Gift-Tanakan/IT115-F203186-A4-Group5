@@ -1,0 +1,166 @@
+/* ===================================
+LAYOUT CSS
+
+Size and positioning for sections
+and included content.
+=================================== */
+
+
+/* ===================================
+Structural Elements
+=================================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*  'clear' makes sure the sections don't overlap or shift out of place
+    'positon' and 'top' enable position fix
+    width across viewport and centered */
+header {
+    clear: both;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+
+    /* Prevents content from leaving the width of its container(s) */
+    min-width: 760px; margin: 0 auto;
+}
+
+
+/* ======================================================= */
+/* ======== CHANGE DEPENDING ON TITLE TEXT LENGTH ======== */
+/* ======================================================= */
+
+#banner-contents {
+    /* Centers the content at a smaller width */
+    width: 50%;
+    margin: auto;
+    /* padding-left: 16%; */
+}
+
+#banner-contents > div {
+    /* display: inline-block;
+    min-width: 50%; */
+    /* float: left; */
+}
+
+#banner-icon {
+    /* margin-top: 5px; */
+    display: inline;
+    float: left;
+}
+
+#site-titles {
+
+}
+
+/* ======================================================= */
+/* ======================================================= */
+
+#content-wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+
+    /* Original width */
+    width: 76.9%;
+
+    /* width: 60%; */
+
+    /* Prevents content from leaving the width of its container(s) */
+    min-width: 760px; margin: 0 auto;
+}
+
+main {
+    float: left;
+    width: 63%;
+}
+
+aside {
+    float: right;
+    width: 35%;
+}
+
+footer {
+    /* clear: both;
+    position: sticky;
+    bottom: 0; */
+    width: 100%;
+    margin: 0 auto;
+
+    /* Prevents content from leaving the width of its container(s) */
+    min-width: 760px; margin: 0 auto;
+}
+
+/* ===================================
+Navigation
+=================================== */
+
+nav ul {
+    /* Centers the content at a smaller width */
+    width: 85%;
+    margin: auto;
+
+    /* Centers the content vertically, relative to the section's height */
+    height: 85px;
+    line-height: 40px;
+}
+
+nav li {
+    /* Structures the content into a horizontally centered list with no bullets/numbers */
+    float: left;
+    list-style-type: none;
+    text-align: center;
+
+    /* Centers the content horizontall, relative to the list's width */
+    width: 20%;
+}
+
+nav a {
+    /* Allows these anchors to accept W/H values */
+    display: inline-block;
+    text-decoration: none;
+
+    width: 100px;
+    height: 80px;
+
+    /* Creates space between the top of the section and the top of its content */
+    margin-top: 2px;
+}
+
+
+/* ===================================
+Images
+=================================== */
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ===================================
+IDs
+=================================== */
+
+#topic-title {
+    text-align: center;
+    font-size: 4em;
+}
+
+/*  HEIGHT WITH STICKY BANNERS: 635px -or- 
+    HEIGHT WITHOUT STICKY BANNERS: 760px -or- 40%*/
+.header-image {
+    max-width: 100%;
+    /* max-height: 635px; */
+    /* background-size: cover; */
+}
+
+#info {
+    text-align: center;
+}
