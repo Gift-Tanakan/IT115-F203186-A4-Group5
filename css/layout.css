@@ -63,13 +63,13 @@ header {
     float: left;
 
     /* Creates space from top and bottom edges of the banner */
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 15px;
 }
 
 #subtitle {
     /* Creates space from above title */
-    margin-top: 12px;
+    margin-top: 9px;
 }
 
 
