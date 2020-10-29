@@ -98,7 +98,7 @@ Page Content
 #home-main-content main {
     text-shadow: 1px 1px 4px rgb(197, 197, 197);
     width: 725px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 #article-main-content main {
