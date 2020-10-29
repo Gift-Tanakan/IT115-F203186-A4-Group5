@@ -127,9 +127,11 @@ aside {
     width: 35%;
     
     /* Creates space from above section */
-    margin-top: 2%;
+/*     margin-top: 2%; */
+    margin-top: 4%;
 
-    padding: 1%;
+/*     padding: 1%; */
+    padding: 3.5%;
 }
 
 #author-image {
