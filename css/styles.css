@@ -121,7 +121,7 @@ main {
 
 aside {
     background-color: rgb(199, 199, 199);
-    border: 1px solid rgb(20, 20, 20);
+/*     border: 1px solid rgb(20, 20, 20); */
     border-radius: 10px;
 
     text-shadow: 1px 1px 4px rgb(182, 182, 182);
