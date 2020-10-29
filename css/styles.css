@@ -164,14 +164,14 @@ nav a {
     border: 1px solid black;
     
     color: black;
-/*     color: #fff; */
+
     
     text-shadow: 1px 1px 4px rgb(182, 182, 182);
 }
 
 nav a:hover {
-/*     background-color: rgb(218, 218, 218); */
-    background-image: url('images/cocoa_120x110.png');
+    background-color: rgb(218, 218, 218);
+/*     background-image: url('images/cocoa_120x110.png'); */
 }
 
 nav a:active {
