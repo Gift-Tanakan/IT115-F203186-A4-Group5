@@ -137,7 +137,14 @@ aside h3 {
     text-shadow: 1px 1px 4px rgb(182, 182, 182);
 }
 
+a {
+    list-style-type: none;
+    color: #000;
+}
 
+a:hover {
+    color: #666;
+}
 /* ===================================
 Footer
 =================================== */
