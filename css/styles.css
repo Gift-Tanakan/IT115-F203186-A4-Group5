@@ -56,11 +56,11 @@ header {
 
 
 #top-banner-contents {
-
+    margin: 20px auto;
 }
 
 #top-banner-logo {
-
+    width: 150px;
 }
 
 #website-titles {
