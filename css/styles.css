@@ -68,8 +68,12 @@ header {
     text-shadow: 1px 1px 4px rgb(47, 47, 47);
 }
 
-#subtitle {
-
+#title a {
+    text-decoration: none;
+    
+}
+#subtitle a {
+    text-decoration: none;
 }
 
 
