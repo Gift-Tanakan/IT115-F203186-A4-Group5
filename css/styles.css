@@ -82,8 +82,8 @@ Page Content
 }
 
 #page-main-image {
-    border: 1px solid rgb(20, 20, 20);
-
+/*     border: 1px solid rgb(20, 20, 20); */
+    margin-bottom: 10px;
     margin-top: -1px;
 
     -moz-box-shadow: 0 0 10px rgb(129, 129, 129);
