@@ -70,10 +70,13 @@ header {
 
 #title a {
     text-decoration: none;
-    
+    color: rgb(231, 231, 231);
+    text-shadow: 1px 1px 4px rgb(47, 47, 47);
 }
 #subtitle a {
     text-decoration: none;
+    color: rgb(231, 231, 231);
+    text-shadow: 1px 1px 4px rgb(47, 47, 47);
 }
 
 
