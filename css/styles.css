@@ -95,13 +95,10 @@ Page Content
     text-shadow: 1px 1px 4px rgb(197, 197, 197);
 }
 
-#home-main-content main {
+#home-main-content {
     text-shadow: 1px 1px 4px rgb(197, 197, 197);
     width: 725px;
     margin: 0 auto;
-}
-main {
-    margin-bottom: 10px;
 }
 
 #article-main-content main {
