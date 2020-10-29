@@ -133,13 +133,8 @@ aside {
 }
 
 aside h3 {
-    text-align: center;
-    padding: 10px;
 
     text-shadow: 1px 1px 4px rgb(182, 182, 182);
-}
-p {
-    margin-bottom: 20px;
 }
 
 
