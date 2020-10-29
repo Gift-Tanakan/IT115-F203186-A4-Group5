@@ -100,6 +100,9 @@ Page Content
     width: 725px;
     margin: 0 auto;
 }
+main {
+    margin-bottom: 10px;
+}
 
 #article-main-content main {
     text-shadow: 1px 1px 4px rgb(197, 197, 197);
