@@ -82,8 +82,8 @@ Page Content
 #page-content-wrapper {
     overflow: hidden;
     width: 90%;
-    min-width: 900px;
-    margin: 0 auto;
+    width: 920px;
+    margin: 20px auto;
 }
 
 #page-main-image {
