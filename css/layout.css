@@ -178,7 +178,7 @@ nav a {
     height: 110px;
     margin: -25px;
     line-height: 106px;
-/*     border-radius: 50%; */
+    border-radius: 80%;
 }
 
 #site-info {
