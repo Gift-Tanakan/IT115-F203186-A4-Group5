@@ -113,6 +113,10 @@ Page Content
     padding: 1%;
 }
 
+.list-of-stuff {
+    padding-left: 2%;
+}
+
 #credits-main-content main {
     text-align: center;
     line-height: 3em;
