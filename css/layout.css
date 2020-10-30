@@ -123,6 +123,7 @@ Page Content
 
 .list-of-stuff p {
     padding-bottom: 2%;
+    margin-bottom: 0;
 }
 
 #credits-main-content main {
