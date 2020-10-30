@@ -45,17 +45,19 @@ header {
     /* Centers the contained side-by-side elements */
     display: flex;
     justify-content: center;
+    padding: 20px auto;
 }
 
 #top-banner-logo {
     /* Pushes element halfway to the left */
     float: left;
 
-    border-radius: 50%;
+/*     border-radius: 50%; */
+    width: 150px;
+    padding: 10px;
 
     /* Creates space from top and bottom edges of the banner */
-    margin-top: 4px;
-    margin-bottom: 4px; 
+    
 }
 
 #website-titles {
@@ -63,13 +65,13 @@ header {
     float: left;
 
     /* Creates space from top and bottom edges of the banner */
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 15px;
 }
 
 #subtitle {
     /* Creates space from above title */
-    margin-top: 12px;
+    margin-top: 5px;
 }
 
 
@@ -80,8 +82,8 @@ Page Content
 #page-content-wrapper {
     overflow: hidden;
     width: 90%;
-    min-width: 900px;
-    margin: 0 auto;
+    width: 920px;
+    margin: 20px auto;
 }
 
 #page-main-image {
@@ -93,7 +95,7 @@ Page Content
     font-size: 48px;
 
     /* Creates space from above section */
-    margin-top: 0.75%;
+    margin-top: 1%;
 }
 
 #home-main-content main {
@@ -111,11 +113,25 @@ Page Content
     padding: 1%;
 }
 
+.list-of-stuff {
+    padding-left: 6%;
+}
+
+.list-of-stuff ul {
+    padding-bottom: 2%;
+}
+
+.list-of-stuff p {
+    padding-bottom: 2%;
+    margin-bottom: 0;
+}
+
 #credits-main-content main {
-    text-align: center;
+/*     text-align: center; */
     line-height: 3em;
 
     margin-top: 2%;
+    margin-left: 8%; 
     
     padding: 1%;
 }
@@ -125,9 +141,24 @@ aside {
     width: 35%;
     
     /* Creates space from above section */
-    margin-top: 2%;
+/*     margin-top: 2%; */
+    margin-top: 4%;
+    margin-bottom: 4%;
 
-    padding: 1%;
+/*     padding: 1%; */
+    padding: 1.5% 3.5% 3% 3.5%;
+}
+aside h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    padding-bottom: 7px;
+}
+
+p {
+    margin-bottom: 20px;
 }
 
 #author-image {
@@ -141,7 +172,7 @@ Footer
 
 footer {
     min-width: 900px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 nav {
@@ -149,7 +180,7 @@ nav {
     justify-content: space-around;
     line-height: 99px;
     height: 112px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 nav li {
@@ -158,10 +189,10 @@ nav li {
     text-align: center;
 
     /* Creates circular border */
-    border-radius: 50%;
+    border-radius: 80%;
     padding: 5px;
 
-    width: 110px;  
+    width: 120px;  
     height:110px;  
     margin: 25px;
     margin-top: -1px;
@@ -172,17 +203,17 @@ nav a {
 
     /* Gives the anchor a rounded shape, matching the above circular border */
     display: inline-block;
-    width: 110px;
+    width: 120px;
     height: 110px;
     margin: -25px;
     line-height: 106px;
-    border-radius: 50%;
+    border-radius: 80%;
 }
 
 #site-info {
     text-align: center;
-    line-height: 28px;
-    height: 30px;
+    line-height: 40px;
+    height: 40px;
 }
 
 #site-info a {
