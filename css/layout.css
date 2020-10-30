@@ -127,10 +127,11 @@ Page Content
 }
 
 #credits-main-content main {
-    text-align: center;
+/*     text-align: center; */
     line-height: 3em;
 
     margin-top: 2%;
+    margin-left: 10%; 
     
     padding: 1%;
 }
