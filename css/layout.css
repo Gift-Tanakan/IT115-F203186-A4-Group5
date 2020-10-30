@@ -117,8 +117,12 @@ Page Content
     padding-left: 6%;
 }
 
-.list-of-stuff li {
-    padding-bottom: 1.5%;
+.list-of-stuff ul {
+    padding-bottom: 2%;
+}
+
+.list-of-stuff p {
+    padding-bottom: 2%;
 }
 
 #credits-main-content main {
