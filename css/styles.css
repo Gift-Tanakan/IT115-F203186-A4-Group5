@@ -98,6 +98,12 @@ Page Content
     box-shadow: 0 0 10px rgb(129, 129, 129);
 }
 
+#members.team_pic {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 #page-content-title {
     text-shadow: 1px 1px 4px rgb(197, 197, 197);
 }
