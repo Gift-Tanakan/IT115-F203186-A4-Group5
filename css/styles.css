@@ -78,14 +78,14 @@ header {
     color: rgb(231, 231, 231);
     text-shadow: 1px 1px 4px rgb(47, 47, 47);
 }
-nav {
+.menu {
     background: #000;
 }
-nav a {
+.menu a {
     color: #f1f3f8;
     text-decoration: none;
 }
-nav a:hover {
+.menu a:hover {
     background: #8d93ab;
     display: block;
 /*    anchor tag is an inline element, so has to display block*/
