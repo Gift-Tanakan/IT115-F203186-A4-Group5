@@ -218,7 +218,8 @@ nav a:active {
 }
 
 #site-info a:hover {
-    color: rgb(75, 75, 75);
+/*     color: rgb(75, 75, 75); */
+    rgb(180, 180, 180);
 }
 
 #site-info a:visited {
