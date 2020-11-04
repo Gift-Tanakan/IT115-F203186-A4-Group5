@@ -83,7 +83,7 @@ header {
     
 }
 .menu a {
-    color: #fff;
+    color: rgb(231, 231, 231);
     text-decoration: none;
 }
 .menu a:hover {
