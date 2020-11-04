@@ -34,8 +34,6 @@ header {
     clear: both;
     position: sticky;
     top: 0;
-    /* width: 100%;
-    margin: 0 auto; */
     min-width: 900px;
     margin: 0 auto;
 }
@@ -45,19 +43,14 @@ header {
     /* Centers the contained side-by-side elements */
     display: flex;
     justify-content: center;
-    padding: 20px auto;
 }
 
 #top-banner-logo {
     /* Pushes element halfway to the left */
     float: left;
 
-/*     border-radius: 50%; */
     width: 150px;
     padding: 10px;
-
-    /* Creates space from top and bottom edges of the banner */
-    
 }
 
 #website-titles {
@@ -79,20 +72,20 @@ header {
     line-height: 40px;
     clear: both;
     margin: 0 auto;
-/*     display: flex;
-    justify-content: space-around; */
 }
+
 .menu ul {
     width: 1100px;
     margin: 0 auto;
 }
+
 .menu li {
     float: left;
     list-style-type: none;
     text-align: center;
-    width: 14.28%;
-    
+    width: 14.28%;  
 }
+
 
 /* ===================================
 Page Content
@@ -146,7 +139,6 @@ Page Content
 }
 
 #credits-main-content main {
-/*     text-align: center; */
     line-height: 3em;
 
     margin-top: 2%;
@@ -160,11 +152,9 @@ aside {
     width: 35%;
     
     /* Creates space from above section */
-/*     margin-top: 2%; */
     margin-top: 4%;
     margin-bottom: 4%;
 
-/*     padding: 1%; */
     padding: 1.5% 3.5% 3% 3.5%;
 }
 aside h3 {
@@ -197,8 +187,8 @@ footer {
 nav {
     display: flex;
     justify-content: space-around;
-    line-height: 99px;
-    height: 112px;
+    line-height: 98px;
+    height: 110px;
     margin-bottom: 40px;
 }
 
@@ -212,7 +202,7 @@ nav li {
     padding: 5px;
 
     width: 120px;  
-    height:110px;  
+    height: 110px;  
     margin: 25px;
     margin-top: -1px;
 }
@@ -222,9 +212,9 @@ nav a {
 
     /* Gives the anchor a rounded shape, matching the above circular border */
     display: inline-block;
-    width: 120px;
-    height: 110px;
-    margin: -25px;
+    width: 118px;
+    height: 108px;
+    margin: -4px;
     line-height: 106px;
     border-radius: 80%;
 }
