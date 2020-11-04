@@ -83,11 +83,11 @@ header {
     
 }
 .menu a {
-    color: #f1f3f8;
+    color: #000;
     text-decoration: none;
 }
 .menu a:hover {
-    background: #8d93ab;
+    background: rgb(255, 255, 255);
     display: block;
 /*    anchor tag is an inline element, so has to display block*/
 }
