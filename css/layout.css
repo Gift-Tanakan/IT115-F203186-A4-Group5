@@ -74,6 +74,21 @@ header {
     margin-top: 5px;
 }
 
+nav {
+    height: 50px;
+    line-height: 50px;
+}
+nav ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    width: 14.28%;
+    
+}
 
 /* ===================================
 Page Content
