@@ -18,20 +18,13 @@ look and feel.
 Structural Elements
 =================================== */
 
-* {
-
-}
-
 html {
-    /* background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(200,200,200,1) 27%, rgba(200,200,200,1) 77%, rgba(0,0,0,1) 100%); */
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
     height: auto;
 
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 
@@ -44,7 +37,6 @@ body {
 }
 
 
-
 /* ===================================
 Site Header
 =================================== */
@@ -52,11 +44,6 @@ Site Header
 header {
     background-color: rgb(26, 26, 26);
     border-bottom: 1px solid rgb(20, 20, 20);
-}
-
-
-#top-banner-contents {
-    
 }
 
 #top-banner-logo {
@@ -90,21 +77,22 @@ header {
     color: rgb(26, 26, 26);
     background: rgb(255, 255, 255);
     display: block;
-/*    anchor tag is an inline element, so has to display block*/
+    /* anchor tag is an inline element, so has to display block */
 }
+
+a.active {
+    color: rgb(26, 26, 26);
+    background-color: rgb(218, 218, 218);
+    display: block;
+}
+
 
 /* ===================================
 Page Content
 =================================== */
 
-#page-content-wrapper {
-
-}
-
 #page-main-image {
-/*     border: 1px solid rgb(20, 20, 20); */
     margin: 20px auto;
-/*     margin-top: -1px; */
 
     -moz-box-shadow: 0 0 10px rgb(129, 129, 129);
     -webkit-box-shadow: 0 0 10px rgb(129, 129, 129);
@@ -139,9 +127,7 @@ main {
 }
 
 aside {
-/*     background-color: rgb(199, 199, 199); */
     background-color: rgb(240, 240, 240);
-/*     border: 1px solid rgb(20, 20, 20); */
     border-radius: 10px;
 
     text-shadow: 1px 1px 4px rgb(182, 182, 182);
@@ -164,30 +150,25 @@ a {
 a:hover {
     color: #666;
 }
+
+
 /* ===================================
 Footer
 =================================== */
 
-footer {
-    
-}
 
-nav {
-    /* border-top: 1px solid black;
+/* nav {
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
-    background-color: rgb(95, 95, 95); */
-}
+    background-color: rgb(95, 95, 95);
+} */
 
 nav li {
     background-color: rgb(26, 26, 26);
 }
 
 nav a {
-/*     border: 1px solid black; */
     color: rgb(231, 231, 231);
-/*     color: black; */
-
-    
     text-shadow: 1px 1px 4px rgb(182, 182, 182);
 }
 
@@ -195,10 +176,14 @@ nav a:hover {
     border: 1px solid black;
     background-color: rgb(255, 255, 255);
     color: rgb(26, 26, 26);
-/*     background-color: rgb(218, 218, 218); */
 }
 
-nav a:active {
+/* nav a:active {
+    background-color: rgb(218, 218, 218);
+} */
+
+nav li a:active {
+    color: rgb(26, 26, 26);
     background-color: rgb(218, 218, 218);
 }
 
@@ -211,29 +196,10 @@ nav a:active {
     text-shadow: 1px 1px 4px rgb(47, 47, 47);
 }
 
-#site-info li {
-
-}
-
 #site-info a {
     color: rgb(231, 231, 231);
-    
 }
 
 #site-info a:hover {
-/*     color: rgb(75, 75, 75); */
-    color: rgb(150, 150, 150);
-}
-
-#site-info a:visited {
-
-}
-
-
-/* ===================================
-General
-=================================== */
-
-.centered-image {
-
+    color: rgb(168, 54, 54);
 }
