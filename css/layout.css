@@ -89,7 +89,7 @@ header {
 .menu li {
     float: left;
     list-style-type: none;
-/*     text-align: center; */
+    text-align: center;
 /*     width: 14.28%; */
     
 }
